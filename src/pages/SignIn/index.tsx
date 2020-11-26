@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { SubmitHandler, FormHandles } from '@unform/core'
 import GoogleLogin from 'react-google-login'
 
-import FormInput from '../../components/FormInput'
+import Input from '../../components/FormInput'
 
 import { Container, Form, SocialLogin } from './styles'
 import Logo from '../../assets/images/logo.svg'
@@ -31,8 +31,8 @@ const SignIn: React.FC = () => {
       </div>
 
       <Form ref={formRef} onSubmit={handleSubmit}>
-        <FormInput name="email" label="E-mail" type="email" />
-        <FormInput name="password" label="Password" type="password" />
+        <Input name="email" label="E-mail" type="email" />
+        <Input name="password" label="Password" type="password" />
 
         <button type="submit">Entrar</button>
       </Form>
