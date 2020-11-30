@@ -14,7 +14,7 @@ const Header: React.FC = () => {
         <span>R$900,00</span>
       </div>
       <div className="resume">
-        <button>Novo gasto</button>
+        <button>Adicionar gasto</button>
       </div>
     </Container>
   )

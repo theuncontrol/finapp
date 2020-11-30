@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from './styles'
-import { PolarArea } from '@reactchartjs/react-chart.js'
+import { Doughnut } from '@reactchartjs/react-chart.js'
 import Header from '../../components/Header'
 
 const data = {
@@ -8,7 +8,7 @@ const data = {
   datasets: [
     {
       label: '# of Votes',
-      data: [50, 19, 3, 5, 2, 3],
+      data: [50, 19, 3, 5],
       backgroundColor: [
         'rgba(255, 99, 132, 0.5)',
         'rgba(54, 162, 235, 0.5)',
@@ -23,7 +23,7 @@ const Landing: React.FC = () => {
   return (
     <Container>
       <Header />
-      <PolarArea data={data} type="polarArea" />
+      <Doughnut data={data} type="doughnut" />
     </Container>
   )
 }

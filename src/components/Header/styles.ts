@@ -35,11 +35,22 @@ export const Container = styled.header`
     width: 100%;
     margin: 10px 20px 10px 40px;
     flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1 1 200px;
     h3 {
       color: #f1f1f1;
     }
     span {
       color: #f1f1f1;
+    }
+    button {
+      width: 150px;
+      height: 30px;
+      background-color: #5f347f;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      font-size: 16px;
     }
   }
 `

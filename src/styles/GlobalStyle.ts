@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font: 400 1.4rem 'Open Sans', sans-serif;
+    overflow: hidden;
     background: #F0F0F5;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
